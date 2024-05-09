@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data e Hora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1>Manipulação de Data e Hora</h1>
+        <div class="input-box">
+            <label for="entradaData1">Data e hora 1:</label>
+            <input type="datetime-local" id="entradaData1">
+        </div>
+        <div class="input-box">
+            <label for="entradaData2">Data e hora 2:</label>
+            <input type="datetime-local" id="entradaData2">
+        </div>        
+        <p id="maiorData"></p>
+        <p id="intervalo"></p>
+        <p id="dataAtual"></p>
+        <button class="btn" onclick="mostrarResultados()">Mostrar Resultados</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
